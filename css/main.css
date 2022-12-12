@@ -1,0 +1,80 @@
+body{
+	background-color:#eba80b;
+	margin: 0px;
+	}
+body.dark-theme {
+	background-color:4a2f07;
+}	
+.post{ 
+	width:50%;
+	background-color:#f1f1f1;
+	margin:auto;
+	border-radius:5px;
+	overflow:hidden;
+	
+	
+}
+.dark-theme .post {
+	color:white;
+	background-color:4f0404;
+}
+.dark-theme header{
+	color:white;
+	background-color:4f0404;
+}
+.post h1{
+padding:10px;
+}
+.post img{
+	width:100%;
+}
+.post p{
+	color:green;
+}
+header{
+	display:flex;
+	background-color:#00ddff;
+	position:sticky;
+	top:0;
+	margin-bottom:5px;
+}
+.dark-theme footer{
+	color:white;
+	background-color:4a2f07;
+}
+footer{
+	background-color:#ff9900;
+	display:felx;
+	
+}
+footer div{
+	margin-left:50%;
+}
+@media(max-width:750px){
+	.post{
+	width:100%;
+    border-radius:0;	
+	}
+	#good_arest{
+    content:url(https://i.gifer.com/SnXA.gif);	
+	}
+}
+button {
+	float: right;
+	margin: 3px 10px 0px 10px;
+	display: flex;
+}
+.like{
+	float: right;
+	font-size:24px;
+	user-select: none;
+	display: flex;
+}
+.plus {
+	width: 32px;
+	color:green;
+}
+.minus{
+	width:32px;
+	color:red;
+}
